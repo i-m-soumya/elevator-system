@@ -30,5 +30,5 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/elevator-system.git
+   git clone https://github.com/i-m-soumya/elevator-system.git
    cd elevator-system
