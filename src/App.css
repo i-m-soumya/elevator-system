@@ -1,42 +1,73 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.elevator-system {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 20px;
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.floor-indicators {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.floor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
 }
 
-.card {
-  padding: 2em;
+.call-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  border: none;
 }
 
-.read-the-docs {
-  color: #888;
+.call-button.waiting {
+  background-color: red;
+}
+
+.elevators {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  position: relative;
+  height: 530px;
+}
+
+.elevator {
+  width: 50px;
+  height: 50px;
+  background-color: "white";
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.elevator.moving {
+  background-color: #939393";
+}
+
+.elevator.arrived {
+  background-color: green;
+  color: white;
+}
+
+.elevator-icon {
+  padding: 5px
 }
