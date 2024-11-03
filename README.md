@@ -2,6 +2,8 @@
 
 A simple elevator system simulation built using React and Vite. The application simulates the behavior of an elevator system in a building with multiple floors and elevators.
 
+![ezgif-4-d3652a069f](https://github.com/user-attachments/assets/2e8deafd-ef23-4be7-b81f-99685a8f223b)
+
 ## Features
 
 - **Multiple Floors**: Simulates a building with 10 floors.
