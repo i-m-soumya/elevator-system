@@ -25,10 +25,3 @@ Make sure you have the following installed on your machine:
 - Node.js (v12 or later)
 - npm (comes with Node.js)
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/i-m-soumya/elevator-system.git
-   cd elevator-system
